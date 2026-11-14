@@ -69,7 +69,7 @@ My first version found misplaced products by clustering detections into shelf co
 - **Augmentations:** [e.g. flips, rotation, brightness, blur]
 
 <!-- If the dataset is too large for GitHub, host it on Google Drive / Roboflow and link it here. -->
-Dataset download: [add link]
+
 
 ---
 
