@@ -1,0 +1,69 @@
+{
+  "shelf_id": "shelf_001",
+  "camera_id": "cam_002",
+  "shop_name": "Family Grocery Shop",
+  "location": "Jaipur, Rajasthan",
+  "_expected_facings_instructions": "Fixed ideal-stock target per product (the '100%' reference used for Dashboard percentages and Low/Out-of-Stock alerts). NOT tied to any shelf position - positions are now detected fresh from each photo, not predefined here. See backend/services/planogram_service.py.",
+  "expected_facings": {
+    "thumps_up": 5,
+    "marie_biscuit": 5,
+    "wheel_bar": 8,
+    "tata_salt": 4,
+    "maggi_small": 7,
+    "maggi_large": 4,
+    "blue_lays": 5
+  },
+  "_dimensions_instructions": "Each value is depth_cm (front-to-back thickness of one packet, in cm), measured with a ruler.",
+  "product_dimensions": {
+    "maggi_small": {
+      "width_cm": 10,
+      "height_cm": 16,
+      "depth_cm": 3,
+      "color": "#FFD700"
+    },
+    "maggi_large": {
+      "width_cm": 10,
+      "height_cm": 18,
+      "depth_cm": 5,
+      "color": "#FFA500"
+    },
+    "blue_lays": {
+      "width_cm": 16,
+      "height_cm": 24,
+      "depth_cm": 4,
+      "color": "#1E90FF"
+    },
+    "marie_biscuit": {
+      "width_cm": 13,
+      "height_cm": 7,
+      "depth_cm": 7,
+      "color": "#FFD700"
+    },
+    "tata_salt": {
+      "width_cm": 15,
+      "height_cm": 18,
+      "depth_cm": 5,
+      "color": "#4169E1"
+    },
+    "thumps_up": {
+      "width_cm": 6,
+      "height_cm": 17,
+      "depth_cm": 6,
+      "color": "#1C1C1C"
+    },
+    "wheel_bar": {
+      "width_cm": 13,
+      "height_cm": 6,
+      "depth_cm": 2,
+      "color": "#32CD32"
+    },
+    "empty_slot": {
+      "width_cm": 0,
+      "height_cm": 0,
+      "depth_cm": 0,
+      "color": "#FF0000"
+    }
+  },
+  "shelf_depth_cm": 15.0,
+  "shelf_height_cm": 40.0
+}

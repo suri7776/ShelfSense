@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  background-color: #1C2620;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Shelf-tag signature: colored edge-strip card */
+.shelf-tag {
+  position: relative;
+  background-color: #28332C;
+  border: 1px solid #3A463D;
+  border-radius: 6px;
+  padding-left: 1.25rem;
+  overflow: hidden;
+}
+
+.shelf-tag::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 6px;
+}
+
+.shelf-tag.tag-sage::before { background-color: #8FB573; }
+.shelf-tag.tag-amber::before { background-color: #E8A33D; }
+.shelf-tag.tag-rust::before { background-color: #D1654A; }
+.shelf-tag.tag-muted::before { background-color: #9CA79B; }
+
+/* Punch-hole detail on sidebar tags, evokes a shelf-edge label strip */
+.peg-hole {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #1C2620;
+  border: 1px solid #3A463D;
+}
